@@ -210,14 +210,14 @@ equal.onclick = function() {
             }
         }
         if (loopCnt > 600) {
-            result.textContent = 'Bieu thuc sai vui long nhap lai!'
+            result.textContent = 'Biểu thức sai vui lòng nhập lại!'
             save = []
             currentInput = ''
             input.innerText = ''
         } else {
             result.textContent = Number.parseFloat(tmpArr[0]).toFixed(2)
             if (result.textContent == 'NaN') {
-                result.textContent = 'Bieu thuc sai vui long nhap lai!'
+                result.textContent = 'Biểu thức sai vui lòng nhập lại!'
                 save = []
                 currentInput = ''
                 input.innerText = ''
